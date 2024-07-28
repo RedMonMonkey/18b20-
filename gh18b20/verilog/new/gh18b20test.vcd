@@ -1,0 +1,123 @@
+$date
+	Fri May 31 13:34:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1us
+$end
+$scope module test $end
+$var wire 1 ! dq $end
+$var reg 1 " dq_en $end
+$scope module uut $end
+$var wire 1 ! dq $end
+$var wire 1 # rst_start $end
+$var wire 64 $ time_gap [63:0] $end
+$var parameter 8 % skip_rom $end
+$var reg 1 & dq_en $end
+$var reg 64 ' neg_time [63:0] $end
+$var reg 64 ( pos_time [63:0] $end
+$var reg 6 ) read_cnt [5:0] $end
+$var reg 1 * read_finish_one_byte $end
+$var reg 1 + reading $end
+$var reg 8 , rom_ins [7:0] $end
+$var reg 1 - rst_finish $end
+$var reg 1 . rsting $end
+$scope task read_one_bit $end
+$upscope $end
+$scope task rst_detect_and_init $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11001100 %
+$end
+#0
+$dumpvars
+0.
+0-
+bx ,
+0+
+x*
+bx )
+b0 (
+b0 '
+0&
+b0 $
+0#
+0"
+1!
+$end
+#20
+b1111111111111111111111111111111111111111111111111111111111101100 $
+b10100 '
+0!
+1"
+#500
+1#
+b111100000 $
+b111110100 (
+1!
+0"
+#505
+0#
+1.
+#565
+b1111111111111111111111111111111111111111111111111111111110111111 $
+b1000110101 '
+0!
+1&
+#805
+b11110000 $
+b1100100101 (
+1!
+0&
+#1040
+b0 )
+0*
+1-
+#1045
+0.
+1+
+0-
+#1100
+b1111111111111111111111111111111111111111111111111111111011011001 $
+b10001001100 '
+0!
+1"
+#1130
+b0xxxxxxx ,
+#1160
+0#
+b111100 $
+b10010001000 (
+1!
+1*
+0"
+#1161
+b1 )
+0*
+#1165
+0+
+1.
+#1225
+b1111111111111111111111111111111111111111111111111111111110111111 $
+b10011001001 '
+0!
+1&
+#1465
+b11110000 $
+b10110111001 (
+1!
+0&
+#1700
+b0 )
+1-
+#1705
+0.
+1+
+0-
+#2160

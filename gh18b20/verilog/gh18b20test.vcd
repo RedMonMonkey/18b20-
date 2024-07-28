@@ -1,0 +1,47 @@
+$date
+	Fri May 31 10:31:26 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1us
+$end
+$scope module test $end
+$var wire 1 ! dq $end
+$var reg 1 " dq_en $end
+$scope module uut $end
+$var wire 1 ! dq $end
+$var reg 64 # neg_time [63:0] $end
+$var reg 64 $ pos_time [63:0] $end
+$scope task rst_detect_and_init $end
+$var reg 1 % dq_en $end
+$var reg 1 & init_finish $end
+$var reg 1 ' neg_time $end
+$var reg 1 ( pos_time $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x(
+x'
+x&
+x%
+bx $
+bx #
+0"
+1!
+$end
+#20
+b10100 #
+0!
+1"
+#500
+b111110100 $
+1!
+0"
